@@ -1,7 +1,9 @@
 class player:
-    lives = 5
-    gold_coins = 0
-    health_points = 10
+
+    def __init__(self):
+        self.lives = 5
+        self.gold_coins = 0
+        self.health_points = 10
 
     def __str__(self):
         return f"You have {self.lives} lives, {self.gold_coins} gold, and {self.health_points} HP"
